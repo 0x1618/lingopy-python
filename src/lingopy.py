@@ -80,7 +80,7 @@ class Localized:
 
         return localized_message
 
-    def __call__(self) -> str:
+    def __call__(self, *args, **kwargs) -> str:
         """Return the localized message when the object is called.
 
         :return: The localized message as a string.
