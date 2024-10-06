@@ -1,5 +1,3 @@
-import random
-
 from src.lingopy import Lingopy
 
 lang_func = lambda: 'en'
