@@ -40,7 +40,7 @@ BAD_PASSWORD_MSG = lingopy.localized(
 )
 ```
 
-You can also localize messages without accessing the Lingopy (which is config base).
+You can also localize messages without accessing the Lingopy (Lingopy is the configuration base for the localized strings).
 
 ```python
 from lingopy import Localized
