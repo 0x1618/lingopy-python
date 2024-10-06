@@ -1,4 +1,4 @@
-from src.lingopy import Lingopy
+from lingopy.lingopy import Lingopy
 
 lang_func = lambda: 'en'
 
@@ -19,7 +19,7 @@ print(BAD_EMAIL_MSG.text + "Added text")  # Both are str type.
 print(BAD_EMAIL_MSG + "Added text")  # Localized type, str type.
 # print("Added text" + BAD_EMAIL_MSG)  # str type, Localized type. That won't work, because str type cannot handle adding another type to it.
 
-from src.lingopy import Localized
+from lingopy.lingopy import Localized
 
 BAD_EMAIL_MSG = Localized(
     lang_func=lambda: 'en',

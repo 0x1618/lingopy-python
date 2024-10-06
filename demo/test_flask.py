@@ -1,6 +1,6 @@
 from flask import Flask, request
 
-from src.lingopy import Lingopy
+from lingopy.lingopy import Lingopy
 
 app = Flask(__name__)
 
