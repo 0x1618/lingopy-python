@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name='lingopy',
-    version='0.1.0',
+    version='0.1.0.1',
     description=
     'Lingopy is a lightweight localization library for Python that helps you manage localized messages effortlessly.',
     long_description=long_description,
