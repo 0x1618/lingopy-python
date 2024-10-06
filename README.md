@@ -24,6 +24,8 @@ pip install lingopy
 First, define a language function that returns the current language code. Then, create an instance of `Lingopy`:
 
 ```python
+from lingopy import Lingopy
+
 lang_func = lambda: "en"
 lingopy = Lingopy(lang_func=lang_func, fallback_lang="pl")
 ```
@@ -124,7 +126,7 @@ Here's how you can set it up:
     ```python
     from flask import Flask, request
 
-    from src.lingopy import Lingopy
+    from lingopy import Lingopy
 
     app = Flask(__name__)
 
