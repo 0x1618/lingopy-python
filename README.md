@@ -11,7 +11,11 @@ Lingopy is a lightweight localization library for Python that helps you manage l
 
 ## Installation
 
-You can include the `Lingopy` module in your project by simply copying the source code.
+To install `Lingopy`, you can use the following command in your terminal:
+
+```bash
+pip install lingopy
+```
 
 ## Usage
 
